@@ -135,6 +135,9 @@ p {
 #logo_text {
   color: rgb(107, 137, 191);
   float: left;
+  position: relative;
+  top: -8px;
+  left: 0px;
   font-size: 32px;
   text-transform: capitalize;
   padding: 0px 20px;
@@ -144,8 +147,9 @@ p {
   color: rgb(107, 137, 191);
   float: left;
   position: relative;
-  top: -20px;
-  width: 500px;
+  top: 0px;
+  left: -8px;
+  width: 540px;
   font-size: 16px;
   padding: 0px 20px;
 }
@@ -157,10 +161,27 @@ p {
   padding-right: 20px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1800px) {
   #top_menu {
-  	float: right;
+  	position: absolute;
+  	left: 40px;
+  	top: 100px;
+  	width: 900px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  #top_menu {
+  	position: absolute;
+  	left: 40px;
+  	top: 100px;
   	width: 500px;
+  }
+  #logo_text {
+	top: -24px;
+  }
+  #phrase_text {
+  	top: -40px;
   }
 }
 
