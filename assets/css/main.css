@@ -161,6 +161,17 @@ p {
   padding-right: 20px;
 }
 
+#center_menu {
+  position: absolute;
+  top: 30px;
+  width: 1000;
+  text-align: center;
+  margin: auto;
+  color: white;
+  z-index: 2;
+  display: inline-block;
+}
+
 @media screen and (max-width: 1800px) {
   #top_menu {
   	position: absolute;
@@ -185,25 +196,37 @@ p {
   }
 }
 
-#top_menu ul {
+#top_menu ul, #center_menu ul {
 	list-style-type: none;
 }
 
-#top_menu ul li {
+#top_menu ul li, #center_menu ul li {
 	display: block;
 	float: left;
 	padding-right: 10px; 
 }
 
-#top_menu ul li a, #lists a {
-  color: rgb(107, 137, 191);
-  font-size: 16px;
+#top_menu ul li a, #center_menu ul li a, #lists a {
   text-transform: uppercase;
   text-decoration: none;
 }
 
+#top_menu ul li a, #lists a {
+  color: rgb(107, 137, 191);
+  font-size: 16px;
+}
+
 #top_menu ul li a:hover {
   color: rgb(170, 170, 170);
+}
+
+#center_menu ul li a {
+  color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#center_menu ul li a:hover {
+  color: rgb(107, 137, 191);
 }
 
 header.special {
@@ -870,6 +893,10 @@ table.alt tbody tr td {
 .highlights .content {
   background: #ffffff;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
+
+.highlights .content:hover {
+    background: rgb(107, 137, 191);
+}
 
 /* Testimonials */
 .testimonials {
