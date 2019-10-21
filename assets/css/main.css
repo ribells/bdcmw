@@ -71,7 +71,7 @@ table {
   border-spacing: 0; }
 
 body {
-  -webkit-text-size-adjust: none; }
+  /* -webkit-text-size-adjust: none; */ }
 
 mark {
   background-color: transparent;
@@ -82,10 +82,14 @@ input::-moz-focus-inner {
   padding: 0; }
 
 input, select, textarea {
-  -moz-appearance: none;
+  /*-moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
-  appearance: none; }
+  appearance: none; */ }
+
+option {
+  border: solid 1px #DDDDDD;
+}
 
 /* Typography */
 html {
@@ -501,12 +505,6 @@ textarea {
   textarea:invalid {
     box-shadow: none; }
 
-label {
-  display: block;
-  font-size: 1rem;
-  font-weight: 600;
-  margin: 0 0 1rem 0; }
-
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -530,6 +528,34 @@ select {
 textarea {
   padding: 0.75rem 1rem; }
 
+.question {
+	font-weight: 500;
+	padding-bottom: 16px;
+}
+
+.even {
+	background-color: #f8f8ff;
+	padding: 10px;
+}
+
+.odd {
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+input[type=radio] {
+    float: left;
+    display: block;
+    transform: scale(1.5);
+}
+
+label {
+    margin-left: 30px;
+    display: block;
+    font-weight: 400;
+}
+
+/*
 input[type="checkbox"],
 input[type="radio"] {
   -moz-appearance: none;
@@ -541,7 +567,7 @@ input[type="radio"] {
   margin-right: -2rem;
   opacity: 0;
   width: 1rem;
-  z-index: -1; }
+  z-index: 2; }
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     text-decoration: none;
@@ -576,6 +602,7 @@ input[type="radio"] {
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
     content: '\f00c'; }
+*/
 
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
@@ -2717,3 +2744,17 @@ body {
   @media screen and (max-width: 480px) {
     #main .content {
       padding: 1.5rem; } }
+
+/* Overrides for specific behavior on ADA site */
+.selectboxit-container .selectboxit, .selectboxit-container .selectboxit-options {
+  width: 100%;
+  max-width: 800px; /* Width of the dropdown element */
+  border-radius: 0;
+  max-height: 240px;
+}
+
+.selectboxit-options .selectboxit-option .selectboxit-option-anchor {
+    white-space: normal;
+    min-height: 40px;
+    height: auto;
+}
