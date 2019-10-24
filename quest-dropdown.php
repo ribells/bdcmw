@@ -10,7 +10,7 @@ require 'startpage.php';
 						<li><a href="#">What is ADA?</a></li>
 						<li><a href="#">Who we help</a></li>
 						<li><a href="#">About Us</a></li>
-						<li><a href="#">Diagnostic & Intervention Info</a></li>
+						<li><a href="#">Useful Info</a></li>
 						<li><a href="#">TV & Writings</a></li>
 					</ul>
 				</div>

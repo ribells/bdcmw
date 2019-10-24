@@ -11,7 +11,7 @@ require 'startpage.php';
 						<li><a href="whatisada.html">What is ADA?</a></li>
 						<li><a href="whowehelp.html">Who We Help</a></li>
 						<li><a href="aboutus.html">About Us</a></li>
-						<li><a href="diagtherapy.html">Diagnostic & Intervention Info</a></li>
+						<li><a href="diagtherapy.html">Useful Info</a></li>
 						<li><a href="tvwriting.html">TV & Writings</a></li>
 					</ul>
 				</div>
