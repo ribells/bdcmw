@@ -1945,7 +1945,7 @@ ul.icons {
   background-color: #1b28ce;
 }
 
-#banner, #content_banner {
+#banner, #content_banner, #content_banner_wedo {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   color: rgba(255, 255, 255, 0.5);
