@@ -22,3 +22,15 @@ print '<?xml version="1.0" encoding="UTF-8"?>'; ?>
 <?php
 require '../logo-menu.php';
 ?>
+			<!-- Nav -->
+			<div id="top_menu">
+				<ul>
+					<li><a href="../whatisada.html">What is ADA?</a></li>
+					<li><a href="../whowehelp.html">Who We Help</a></li>
+					<li><a href="../whatwedo.html">What We Do</a></li>
+					<li><a href="../aboutus.html">About Us</a></li>
+					<li><a href="../diagtherapy.html">Useful Info</a></li>
+					<li><a href="../tvwriting.html">TV & Writings</a></li>
+				</ul>
+			</div>
+		</div>

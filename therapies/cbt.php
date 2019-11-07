@@ -2,19 +2,7 @@
 //require 'config.php';
 $thisPage = "cbt";
 require 'therapypage.php';
-?>
-			<!-- Nav -->
-			<div id="top_menu">
-				<ul>
-					<li><a href="../whatisada.html">What is ADA?</a></li>
-					<li><a href="../whowehelp.html">Who We Help</a></li>
-					<li><a href="../aboutus.html">About Us</a></li>
-					<li><a href="../diagtherapy.html">Useful Info</a></li>
-					<li><a href="../tvwriting.html">TV & Writings</a></li>
-				</ul>
-			</div>
-		</div>
-			
+?>	
 		<!-- Banner -->
 			<section id="content_banner">
 				<div class="inner">
