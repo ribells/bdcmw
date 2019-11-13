@@ -6,7 +6,7 @@ require 'disorderpage.php';
 		<!-- Banner -->
 			<section id="content_banner">
 				<div class="inner">
-					<h2 style="background-color: #1b28ce; color: white;">Tourette syndrome (TS)</h2>
+					<h2 style="background-color: rgb(76, 200, 241); color: white;">Tourette syndrome (TS)</h2>
 				</div>
 			</section>
 						

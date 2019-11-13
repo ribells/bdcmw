@@ -6,7 +6,7 @@ require 'disorderpage.php';
 		<!-- Banner -->
 			<section id="content_banner">
 				<div class="inner">
-					<h2 style="background-color: #1b28ce; color: white;">Attention Deficit Disorder (ADD) and Attention Deficit/Hyperactive Disorder (AD/HD)</h2>
+					<h2 style="background-color: rgb(76, 200, 241); color: white;">Attention Deficit Disorder (ADD) and Attention Deficit/Hyperactive Disorder (AD/HD)</h2>
 				</div>
 			</section>
 						
