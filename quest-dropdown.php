@@ -19,7 +19,7 @@ require 'startpage.php';
 		<!-- Banner -->
 			<section id="content_banner">
 				<div class="inner">
-					<h1 style="background-color: #1b28ce; color: white;">Assessment Questionnaire</h1>
+					<h1 style="background-color: rgb(76, 200, 241); color: white;">Assessment Questionnaire</h1>
 				</div>
 			</section>
 			</section>
