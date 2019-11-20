@@ -31,6 +31,25 @@
   background-color: rgb(76, 200, 241);
 }
 
+.h_iframe {
+  position: relative;
+}
+
+.h_iframe .ratio {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.h_iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
 .widget {
   position: relative;
   margin: 20px auto 10px;
