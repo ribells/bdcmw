@@ -191,6 +191,8 @@ li:last-child > .widget-list-link {
 
 /* Staff */
 .staff {
+  position:relative;
+  left: 5%;
   width: 100%;
   margin: 0 0;
   display: -moz-flex;
@@ -215,21 +217,21 @@ li:last-child > .widget-list-link {
     -ms-flex-grow: 0;
     flex-grow: 0; }
   .staff > * {
-    width: 16.667%;
+    width: 15%;
     padding-right: 0.5rem; }
   .staff > div > :last-child {
     margin-bottom: 0; }
   @media screen and (max-width: 980px) {
     .staff > * {
-      width: 25%; }
+      width: 23%; }
     .staff > * {
-      width: 25.0%;
+      width: 23.0%;
       padding-right: 0.5rem; }
   @media screen and (max-width: 736px) {
     .staff > * {
-      width: 50%; }
+      width: 46%; }
     .staff > * {
-      width: 50.0%;
+      width: 46.0%;
       padding-right: 0.5rem; }
 
 .staff .content {
