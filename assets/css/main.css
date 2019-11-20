@@ -137,7 +137,7 @@ p {
 }
 
 #logo_text {
-  color: rgb(107, 137, 191);
+  color: rgb(140, 140, 140);
   float: left;
   position: relative;
   top: -8px;
@@ -148,7 +148,7 @@ p {
 }
 
 #phrase_text {
-  color: rgb(107, 137, 191);
+  color: rgb(140, 140, 140);
   float: left;
   position: relative;
   top: 0px;
@@ -216,12 +216,12 @@ p {
 }
 
 #top_menu ul li a, #lists a {
-  color: rgb(107, 137, 191);
+  color: rgb(140, 140, 140);
   font-size: 16px;
 }
 
 #top_menu ul li a:hover {
-  color: rgb(170, 170, 170);
+  color: rgb(190, 190, 190);
 }
 
 #center_menu ul li a {
@@ -230,7 +230,7 @@ p {
 }
 
 #center_menu ul li a:hover {
-  color: rgb(107, 137, 191);
+  color: rgb(140, 140, 140);
 }
 
 header.special {
@@ -1942,7 +1942,7 @@ ul.icons {
   top: 24px;
   height: 10rem !important;
   min-height: 10rem;
-  background-color: #1b28ce;
+  background-color: rgb(76, 200, 241);
 }
 
 #banner, #content_banner, #content_banner_wedo {
